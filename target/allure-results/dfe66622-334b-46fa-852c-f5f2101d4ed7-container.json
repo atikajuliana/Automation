@@ -1,0 +1,1 @@
+{"uuid":"dfe66622-334b-46fa-852c-f5f2101d4ed7","name":"Automation.Automation.AppiumDriverBase.afterMethdod","description":"","start":1523549530998,"stop":1523549535728,"children":["993adb88-ed94-4874-a2dc-c63a357aa645"],"afters":[{"name":"afterMethdod","status":"passed","stage":"finished","description":"","start":1523549531008,"stop":1523549535728}]}
