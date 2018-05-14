@@ -39,14 +39,14 @@ public class AppTest extends AppiumDriverBase {
 	@Description("3. Masukkan No telepon dan klik tombol Sign in")
 	@Step("Masukkan no telepon: [0]")
 	public void clickButtonSignIn() throws Exception {
-		driver.findElement(By.id("ovo.id:id/field_account")).sendKeys("083877387595");
+		driver.findElement(By.id("ovo.id:id/field_account")).sendKeys("08xxxxxxxxxx");
 		driver.findElement(By.id("ovo.id:id/btn_sign_in")).click();
 	}
 	
 	@Description("4. Masukkan security code")
 	@Step
 	public void insertSecurityCode() throws Exception {
-		driver.findElement(By.id("ovo.id:id/pin_entry")).sendKeys("161616");
+		driver.findElement(By.id("ovo.id:id/pin_entry")).sendKeys("xxxxxx");
 	}
 
 	@Description("5. Klik cancel pada Finger Print")
